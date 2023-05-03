@@ -1,0 +1,308 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="alchemy.master.cs" Inherits="alchemySoft.alchemy" %>
+
+<%@ Import Namespace="System.Data.SqlClient" %>
+<%@ Import Namespace="alchemySoft" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="shortcut icon" href="/Images/Logo.jpg" />
+    <title></title>
+
+
+      <script type="text/javascript" src="/Dynamic/js/jquery-2.1.3.js"></script>
+    <link href="/Dynamic/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Dynamic/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/Dynamic/css/sweet-alert.css" rel="stylesheet" />
+    <link id="themeStyle" href="/Dynamic/css/style.css" rel="stylesheet" />
+    <link href="/Dynamic/css/responsive.css" rel="stylesheet" />
+    <link href="/MenuCssJs/css/gridCSS.css" rel="stylesheet" />
+    <link href="/MenuCssJs/css/Theme/alertbox.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="/MenuCssJs/js/Clock.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css' />
+    <script> 
+        function pageLoad() {
+            BindControlEvents();
+        }
+        function BindControlEvents() {
+            navigator.geolocation.getCurrentPosition(showPosition);
+                function showPosition(position) {
+                    var coordinates = position.coords;
+                    var long = coordinates.longitude;
+                    var loti = coordinates.latitude;
+                    $("#<%=txtLotiLongTude.ClientID %>").val(loti + ", " + long);
+                } 
+                 
+
+            $.getJSON("https://api.ipify.org/?format=json",
+                 function (data) {
+                     $("#<%=txtIp.ClientID %>").val(data.ip);
+                 });
+                 $('#refrsh').click(function () {
+                     location.load();
+                 });
+             }
+
+    </script>
+    <style type="text/css">
+        @font-face {
+            font-family: "Dodgv2";
+            src: url("/MenuCssJs/fonts/Dodgv2.ttf")format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background: #f3f5f5;"  >
+    <form id="form1" runat="server"> 
+       
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div   id="headPopup">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h5 class="modal-title" id="exampleModalLabel"><strong>Message</strong></h5>
+
+                    </div>
+                    <div class="modal-body">
+                        <span id="messagePopup"></span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="okButton" tabindex="-2" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+        <div style="width: 100%; overflow: hidden">
+
+            <asp:TextBox runat="server" Style="display: none" ID="txtLotiLongTude" ></asp:TextBox>
+            <asp:TextBox runat="server" Style="display: none" ID="txtIp" ClientIDMode="Static"></asp:TextBox>
+            <asp:Label ID="lblLocUpdate" runat="server"></asp:Label>
+            <div class="row" id="header">
+                <div class="col-md-12">
+                    <div class="col-md-2 logo">
+                        <h1>ASL
+                        <a href="#" id="menuCollapse">
+                            <i class="fa fa-1x fa-caret-left"></i>
+                        </a>
+                            <i class="fa fa-bars" id="normalView"></i>
+                            <a href="#" id="responsiveMenu">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <a href="#" id="menuExpand">
+                                <i class="fa fa-1x fa-caret-right"></i>
+                            </a>
+                        </h1>
+                    </div>
+                    <!-- sidebar end here -->
+                    <div class="col-md-10" id="pageHeader">
+                        <div class="col-md-7">
+                            <div class="company">
+                                <img src="/Images/checkmark.png" width="40px" height="40px" />
+                                <h1>
+                                    <asp:Label runat="server" ID="lblAdmin" Visible="False"></asp:Label>
+                                    <asp:Label Style="font-family: Dodgv2;" runat="server" ID="lblCompanyName" ForeColor="#006999" Visible="true"></asp:Label>
+                                </h1>
+                            </div>
+
+                        </div>
+                        <div class="col-md-5">
+                            <div id="profile_photo">
+                                <span class="searchBox">Hello!
+                                <strong>
+                                    <%HttpCookie CookiesData = HttpContext.Current.Request.Cookies["UserInfo"];//Output Data  %>
+
+                                    <%=CookiesData["USERNAME"].ToString() %></strong>
+                                </span>
+
+                                <%--<img src="/Dynamic/images/profile.png" width="30" height="30" alt="">--%>
+                                <!-- logout option button -->
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right" style="" role="menu">
+                                        <li>
+                                            <a href="/LogIn/UI/Profile.aspx">Porfile</a>
+                                        </li>
+                                        <li>
+                                            <a href="/LogIn/UI/ChangePassword.aspx">Change Password</a>
+                                        </li>
+
+                                        <li class="divider"></li>
+                                        <li>
+                                            <a href="#">
+                                                <asp:LinkButton ID="lblLogout" OnClick="lblLogout_Click" runat="server" Text="Log out"></asp:LinkButton></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- end logout option -->
+                                <!-- <a href="#"><i class="fa fa-caret-down"></i></a> -->
+
+                            </div>
+                        </div>
+                        <!--   <hr> -->
+                    </div>
+                    <!-- <hr> -->
+                </div>
+            </div>
+            <!-- header end -->
+            <div style="border-top: 1px solid #EAECEC;"></div>
+
+            <div class="col-md-2" id="sidebar">
+                <ul class="accordion">
+                    <li>
+                        <span>
+                            <i class="fa fa-home"></i>
+                        </span>
+                        <span class="mainMenuText"><a href="/Default.aspx">Home</a></span>
+                    </li>
+                    <% 
+                        if (CookiesData["USERTYPE"].ToString() == "SUPERADMIN")
+                        {
+                            SqlConnection con = new SqlConnection(dbFunctions.Connection);
+                            con.Open();
+                            SqlCommand cmd = new SqlCommand(@"SELECT DISTINCT ASL_MENUMST.MODULESL, ASL_MENUMST.MODULEID, ASL_MENUMST.MODULENM
+                            FROM ASL_MENU INNER JOIN
+                            ASL_MENUMST ON ASL_MENU.MODULEID = ASL_MENUMST.MODULEID
+                            where ASL_MENUMST.MODULEID in ('01','02')
+                            ORDER BY ASL_MENUMST.MODULESL ", con);
+                            SqlDataReader dr = cmd.ExecuteReader();
+                            foreach (var item in dr)
+                            {
+                                string id = dr["MODULEID"].ToString();
+                    %>
+                    <li>
+                        <span>
+                            <i class="fa fa-user"></i>
+                        </span>
+                        <span class="mainMenuText"><%=dr["MODULENM"].ToString() %></span>
+                        <ul class="subMenu">
+                            <%
+                                SqlCommand cmd2 = new SqlCommand(@"SELECT MENUNM, FLINK,'' TARGET FROM ASL_MENU WHERE MODULEID='" + id + "' ORDER BY MENUSL", con);
+                                SqlDataReader dr2 = cmd2.ExecuteReader();
+                                foreach (var item2 in dr2)
+                                {
+                            %>
+                            <a href="<%=dr2["FLINK"].ToString() %> ">
+                                <li><%=dr2["MENUNM"].ToString() %></li>
+                            </a>
+                            <%
+                                }
+                                dr2.Close();
+                            %>
+                        </ul>
+                    </li>
+                    <% 
+                        }
+                        dr.Close();
+                        con.Close();
+
+                    %>
+                    <% } %>
+
+                    <%else
+                        {
+                            string userId = CookiesData["USERID"].ToString();
+                            SqlConnection con = new SqlConnection(dbFunctions.Connection);
+                            con.Open();
+                            SqlCommand cmd = new SqlCommand(@"SELECT DISTINCT ASL_MENUMST.MODULESL, ASL_MENUMST.MODULEID, ASL_MENUMST.MODULENM
+                                FROM ASL_USERCO INNER JOIN
+                                ASL_ROLE ON ASL_USERCO.COMPID = ASL_ROLE.COMPID INNER JOIN
+                                ASL_MENU ON ASL_ROLE.MODULEID = ASL_MENU.MODULEID INNER JOIN
+                                ASL_MENUMST ON ASL_ROLE.MODULEID = ASL_MENUMST.MODULEID
+                                WHERE ASL_ROLE.STATUS='A' AND ASL_ROLE.USERID='" + userId + "'  ORDER BY ASL_MENUMST.MODULESL", con);
+                            SqlDataReader dr = cmd.ExecuteReader();
+                            foreach (var item in dr)
+                            {
+                                string id = dr["MODULEID"].ToString();
+                    %>
+                    <li>
+                        <span>
+                            <i class="fa fa-user"></i>
+                        </span>
+                        <span class="mainMenuText"><%=dr["MODULENM"].ToString() %></span>
+                        <ul class="subMenu">
+                            <%
+                                SqlCommand cmd2 = new SqlCommand(@"SELECT DISTINCT ASL_MENU.MENUSL, ASL_MENU.MENUNM, ASL_MENU.FLINK FROM ASL_ROLE INNER JOIN
+                      ASL_USERCO ON ASL_ROLE.COMPID = ASL_USERCO.COMPID AND ASL_ROLE.USERID = ASL_USERCO.USERID INNER JOIN
+                      ASL_MENU ON ASL_ROLE.MODULEID = ASL_MENU.MODULEID AND ASL_ROLE.MENUID = ASL_MENU.MENUID AND ASL_ROLE.MENUTP = ASL_MENU.MENUTP INNER JOIN
+                      ASL_MENUMST ON ASL_ROLE.MODULEID = ASL_MENUMST.MODULEID AND ASL_MENU.MODULEID = ASL_MENUMST.MODULEID
+                                WHERE ASL_ROLE.STATUS='A' AND ASL_MENUMST.MODULEID='" + id + "'  AND ASL_ROLE.USERID='" + userId + "'  ORDER BY ASL_MENU.MENUSL", con);
+                               SqlDataReader dr2 = cmd2.ExecuteReader();
+                                foreach (var item2 in dr2)
+                                {
+                            %>
+                            <a href="<%=dr2["FLINK"].ToString() %> ">
+                                <li><%=dr2["MENUNM"].ToString() %></li>
+                            </a>
+                            <%
+                                }
+                                dr2.Close();
+                            %>
+                        </ul>
+                    </li>
+                    <%
+
+                        }
+                        dr.Close();
+                        con.Close();
+
+                    %>
+                    <% } %>
+                </ul>
+                <div id="developer">
+                    <div class="sidebar_divider" style="width: 90%; padding-bottom: 0px;"></div>
+                    <%--<div id="btnChat">
+                        <span><i class="fa fa-comments"></i>Chat <span class="notification">12</span></span>
+                    </div>
+                    <div id="btnMail">
+                        <span><i class="fa fa-envelope-o"></i>Mail <span class="notification">12</span></span>
+                    </div>--%>
+
+                    <div style="margin-top: 10px;">
+                        <div id="developerName">
+                            <p>
+                                Developed by :<span> <a href="http://alchemy-bd.com" target="_blank">Alchemy Software Ltd.</a></span>
+                            </p>
+                        </div>
+                        <div id="developerLogo">
+                            <img src="/MenuCssJs/images/alchemy.png" alt="Alchemy Software" />
+                        </div>
+                    </div>
+
+
+                    <%--<div id="pop-up">
+                        <span class="pull-right"><a href="#" id="closePopUp"><i class="fa fa-times"></i></a></span>
+                        <iframe id="myIframeID" src="#" name="iframe_a" width="260" scrolling="no"></iframe>
+                    </div>--%>
+                    <!--link popup end-->
+                </div>
+                <!-- developer section end here -->
+                
+            </div>
+            <!-- sidebar end -->
+
+            <!-- main content start here -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- main content end here -->
+            
+        </div>
+        
+        <script type="text/javascript" src="/Dynamic/js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/Dynamic/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/Dynamic/js/function.js"></script> 
+    </form>
+</body>
+</html>

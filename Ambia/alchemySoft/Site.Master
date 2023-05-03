@@ -1,0 +1,157 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="alchemySoft.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>TTI</title>
+
+
+    <script type="text/javascript" src="/MenuCssJs/js/jquery-2.1.3.js"></script>
+
+    <link type="text/css" href="/MenuCssJs/css/style.css" rel="stylesheet" />
+    <link type="text/css" href="/MenuCssJs/css/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" href="/MenuCssJs/css/font-awesome.min.css" rel="stylesheet" />
+    <link type="text/css" href="/MenuCssJs/css/sweet-alert.css" rel="stylesheet" />
+    <link type="text/css" href="/MenuCssJs/css/Theme/responsive.css" rel="stylesheet" />
+    <asp:PlaceHolder runat="server">
+        <script src="<%: ResolveUrl("~/Scripts/modernizr-2.6.2.js") %>"></script>
+    </asp:PlaceHolder>
+    <%--<meta name="viewport" content="width=device-width" />--%>
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body>
+    <form runat="server">
+        <div class="container">
+            <div class="row" id="header">
+                <div class="col-md-12">
+                    <div class="col-md-2 logo">
+                        <h1>Admin <a href="#" id="menuCollapse"><i class="fa fa-1x fa-caret-left"></i></a>
+                            <i class="fa fa-bars" id="normalView"></i><a href="#" id="responsiveMenu"><i class="fa fa-bars"></i></a><a href="#" id="menuExpand"><i class="fa fa-1x fa-caret-right"></i></a>
+                        </h1>
+                    </div>
+                    <!-- sidebar end here -->
+                    <div class="col-md-10" id="pageHeader">
+                        <div class="col-md-7">
+                            <h1>Dashboard</h1>
+                        </div>
+                        <div class="col-md-5">
+                            <div id="profile_photo">
+                                <span class="searchBox">Hello! <strong>John</strong>
+                                </span>
+
+                                <img src="/MenuCssJs/images/profile.png" width="30" height="30" alt="" />
+                                <!-- logout option button -->
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right" style="" role="menu">
+                                        <li><a href="#">Porfile</a>
+                                        </li>
+                                        <li><a href="#">Change Password</a>
+                                        </li>
+
+                                        <li class="divider"></li>
+                                        <li><a href="#">Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- end logout option -->
+                                <!-- <a href="#"><i class="fa fa-caret-down"></i></a> -->
+
+                            </div>
+                        </div>
+                        <!--   <hr> -->
+                    </div>
+                    <!-- <hr> -->
+                </div>
+            </div>
+            <!-- header end -->
+            <div style="border-top: 1px solid #EAECEC;"></div>
+            <!-- secondary header end -->
+            <!-- sidebar start -->
+            <div class="col-md-2" id="sidebar">
+                <ul class="accordion">
+                    <li><a href="/Default.aspx"><span><i class="fa fa-dashboard"></i></span><span class="mainMenuText">Home</span></a></li>
+                    <li><span><i class="fa fa-dashboard"></i></span><span class="mainMenuText">Dashboard</span>
+                    </li>
+                    <li><span><i class="fa fa-envelope"></i></span><span class="mainMenuText">Message</span> <span class="pull-right notification">12</span>
+                    </li>
+                    <li><span><i class="fa fa-user"></i></span><span class="mainMenuText">Clients</span>
+                        <ul class="subMenu">
+                            <li>AB</li>
+                            <li>BC</li>
+                            <li>CD</li>
+                            <li>DE</li>
+                            <li>EF</li>
+                        </ul>
+                    </li>
+                    <li><span><i class="fa fa-tag"></i></span><span class="mainMenuText">Order</span>
+                        <ul class="subMenu">
+                            <li>AB</li>
+                            <li>BC</li>
+                            <li>CD</li>
+                            <li>DE</li>
+                            <li>EF</li>
+                        </ul>
+                    </li>
+                    <li><span><i class="fa fa-table"></i></span><span class="mainMenuText">Report</span>
+                        <ul class="subMenu">
+                            <li>AB</li>
+                            <li>BC</li>
+                            <li>CD</li>
+                            <li>DE</li>
+                            <li>EF</li>
+                        </ul>
+                    </li>
+                    <li><a href="/Default.aspx"><span><i class="fa fa-cog"></i></span><span class="mainMenuText">Settings</span></a>
+                    </li>
+
+                </ul>
+                <div class="sidebar_divider" id="developerDivider"></div>
+
+
+                <div id="developer">
+                    <div class="sidebar_divider" style="width: 90%; padding-bottom: 10px;"></div>
+                    <div id="btnChat">
+                        <span><i class="fa fa-comments"></i>Chat <span class="notification">12</span></span>
+                    </div>
+                    <div id="btnMail">
+                        <span><i class="fa fa-envelope-o"></i>Mail <span class="notification">12</span></span>
+                    </div>
+
+                    <div style="margin-top: 35px;">
+                        <div id="developerName">
+                            <p>
+                                Developed by :<span> <a href="#">Alchemy Software</a></span>
+                            </p>
+                        </div>
+                        <div id="developerLogo">
+                            <img src="/MenuCssJs/images/alchemy.png" alt="">
+                        </div>
+                    </div>
+
+                    <div id="pop-up">
+                        <span class="pull-right"><a href="#" id="closePopUp"><i class="fa fa-times"></i></a></span>
+                        <iframe id="myIframeID" src="#" name="iframe_a" width="260" scrolling="no"></iframe>
+                    </div>
+                    <!--link popup end-->
+                </div>
+                <!-- developer section end here -->
+            </div>
+            <!-- sidebar end -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+
+        <script type="text/javascript" src="/MenuCssJs/js/jquery.canvasjs.min.js"></script>
+        <script type="text/javascript" src="/MenuCssJs/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="/MenuCssJs/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/MenuCssJs/js/sweet-alert.min.js"></script>
+        <script type="text/javascript" src="/MenuCssJs/js/function.js"></script>
+    </form>
+</body>
+</html>

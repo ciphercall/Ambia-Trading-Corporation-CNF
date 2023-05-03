@@ -1,0 +1,61 @@
+﻿.Grid {
+    background-color: #fff;
+    border-collapse: collapse;
+    font-family: Calibri;
+    color: #474747;
+    border: 2px solid #4a1d1d;
+}
+
+.gridRoot {
+    border: 1px solid #4a1d1d;
+    width: 100%;
+    border-radius: 5px !important;
+}
+
+.Grid td {
+    padding: 1px;
+    border: solid 1px #f3f1f1;
+}
+
+.Grid th {
+    padding: 5px 2px 5px 2px;
+    color: #fff;
+    background: #4a1d1d;
+    border: 1px solid #fff;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.Grid .alt {
+    background: #fcfcfc url(Images/grid-alt.png) repeat-x top;
+}
+
+.Grid .pgr {
+    background: #363670 url(Images/grid-pgr.png) repeat-x top;
+}
+
+    .Grid .pgr table {
+        margin: 3px 0;
+    }
+
+    .Grid .pgr td {
+        border-width: 0;
+        padding: 0 6px;
+        border-left: solid 1px #666;
+        font-weight: bold;
+        color: #fff;
+        line-height: 12px;
+    }
+
+    .Grid .pgr a {
+        color: Gray;
+        text-decoration: none;
+    }
+
+.Grid tr:hover {
+    color: #b20f0f;
+    text-decoration: none;
+    /*background-color: #00968826;*/
+    font-weight: bold;
+    cursor: pointer;
+}

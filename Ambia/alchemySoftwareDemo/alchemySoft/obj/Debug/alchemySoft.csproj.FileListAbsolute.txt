@@ -1,0 +1,249 @@
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\ApplicationInsights.config
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\csc.exe
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\vbc.exe
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\VBCSCompiler.exe
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\alchemySoft.dll.config
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\alchemySoft.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\alchemySoft.pdb
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Antlr3.Runtime.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\EntityFramework.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\EntityFramework.SqlServer.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AI.Web.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Newtonsoft.Json.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Owin.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\System.Web.Optimization.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\System.Web.Providers.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\WebGrease.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AI.Web.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\System.Web.Optimization.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Antlr3.Runtime.pdb
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Newtonsoft.Json.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\EntityFramework.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\EntityFramework.SqlServer.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\System.Web.Providers.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\obj\Debug\alchemySoft.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\obj\Debug\alchemySoft.pdb
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Riaz.Net\Documents\Visual Studio 2015\Projects\alchemySoft\alchemySoft\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Trio\alchemySoft\alchemySoft\bin\ApplicationInsights.config
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\csc.exe
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\System.Collections.Immutable.dll
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\System.Reflection.Metadata.dll
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\vbc.exe
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\VBCSCompiler.exe
+D:\Trio\alchemySoft\alchemySoft\bin\roslyn\VBCSCompiler.exe.config
+D:\Trio\alchemySoft\alchemySoft\bin\alchemySoft.dll.config
+D:\Trio\alchemySoft\alchemySoft\bin\alchemySoft.dll
+D:\Trio\alchemySoft\alchemySoft\bin\alchemySoft.pdb
+D:\Trio\alchemySoft\alchemySoft\bin\Antlr3.Runtime.dll
+D:\Trio\alchemySoft\alchemySoft\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Trio\alchemySoft\alchemySoft\bin\AspNet.ScriptManager.jQuery.dll
+D:\Trio\alchemySoft\alchemySoft\bin\EntityFramework.dll
+D:\Trio\alchemySoft\alchemySoft\bin\EntityFramework.SqlServer.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AI.DependencyCollector.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AI.Web.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AI.WindowsServer.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.ApplicationInsights.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Google.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Web.Infrastructure.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Newtonsoft.Json.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Owin.dll
+D:\Trio\alchemySoft\alchemySoft\bin\System.Web.Optimization.dll
+D:\Trio\alchemySoft\alchemySoft\bin\System.Web.Providers.dll
+D:\Trio\alchemySoft\alchemySoft\bin\WebGrease.dll
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AI.DependencyCollector.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AI.Web.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AI.WindowsServer.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.ApplicationInsights.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Trio\alchemySoft\alchemySoft\bin\System.Web.Optimization.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Antlr3.Runtime.pdb
+D:\Trio\alchemySoft\alchemySoft\bin\Newtonsoft.Json.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Trio\alchemySoft\alchemySoft\bin\EntityFramework.xml
+D:\Trio\alchemySoft\alchemySoft\bin\EntityFramework.SqlServer.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Trio\alchemySoft\alchemySoft\bin\System.Web.Providers.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Google.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Trio\alchemySoft\alchemySoft\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Trio\alchemySoft\alchemySoft\obj\Debug\alchemySoft.csprojResolveAssemblyReference.cache
+D:\Trio\alchemySoft\alchemySoft\obj\Debug\alchemySoft.dll
+D:\Trio\alchemySoft\alchemySoft\obj\Debug\alchemySoft.pdb
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\ApplicationInsights.config
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\csc.exe
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\System.Collections.Immutable.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\System.Reflection.Metadata.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\vbc.exe
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\VBCSCompiler.exe
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\roslyn\VBCSCompiler.exe.config
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\alchemySoft.dll.config
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\alchemySoft.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\alchemySoft.pdb
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Antlr3.Runtime.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\AspNet.ScriptManager.jQuery.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\EntityFramework.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\EntityFramework.SqlServer.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AI.DependencyCollector.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AI.Web.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AI.WindowsServer.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.ApplicationInsights.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.Google.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Web.Infrastructure.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Newtonsoft.Json.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Owin.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\System.Web.Optimization.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\System.Web.Providers.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\WebGrease.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AI.DependencyCollector.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AI.Web.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AI.WindowsServer.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.ApplicationInsights.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\System.Web.Optimization.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Antlr3.Runtime.pdb
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Newtonsoft.Json.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\EntityFramework.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\EntityFramework.SqlServer.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\System.Web.Providers.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.Google.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\obj\Debug\alchemySoft.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\obj\Debug\alchemySoft.pdb
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\bin\AjaxControlToolkit.dll
+E:\Riaz\RiazBackup\Project\Ambia\alchemySoft\obj\Debug\alchemySoft.csprojResolveAssemblyReference.cache

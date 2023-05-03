@@ -1,0 +1,546 @@
+//variables
+@base_color: #DB673E;
+@text_color: #333;
+@notification_color: #FF962F;
+@hairline_color: #EAECEC;
+@bg_color: #eee;
+@border_color: #E5E7E7;
+@sidebar_text_color: #f3f3f3;
+@sidebar_divider_color: #363A3B;
+@tiles_color: #7BBF62;
+@chart_color: #2A80B9;
+a {
+    color: @notification_color;
+}
+a:hover {
+    color: @notification_color;
+    text-decoration: none;
+}
+body {
+    background: url('../images/bg2.png');
+    //background:@bg_color;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.btn {
+    background: #fff;
+    color: #333;
+}
+.dropdown-menu {
+    background: #fff;
+}
+.container, .row {
+    padding: 0px !important;
+}
+.line {
+    color: @hairline_color;
+}
+.sidebar_divider {
+    border-top: 1px solid lighten(@base_color, 10%);
+    width: 100%;
+}
+hr {
+    color: @hairline_color;
+}
+#header {
+    .logo {
+        background: darken(@base_color, 5%);
+        height: 60px;
+        h1::first-letter {
+            color: lighten(@text_color, 90%);
+        }
+        h1 {
+            color: @sidebar_text_color;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    h1 {
+        color: lighten(@text_color, 30%);
+        font-size: 18px;
+    }
+    #profile_photo {
+        float: right;
+        position: relative;
+        top: 10px;
+    }
+    #profile_photo img {
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    .searchBox {
+        padding-right: 10px;
+        color: lighten(@text_color, 30%);
+    }
+    #responsiveMenu {
+        display: none;
+    }
+    #normalView {
+        cursor: pointer;
+    }
+    #pageHeader {
+        background: #fff;
+        height: 60px;
+    }
+}
+#sidebar {
+    background: @base_color;
+    padding: 10px;
+    position: relative;
+    top: -1px;
+    border-bottom: 4px solid darken(@base_color,15%);
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    ul li {
+        list-style-type: none;
+        color: @sidebar_text_color;
+        padding: 8px 2px;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+    .active {
+        background: @bg_color;
+        border-left: 4px solid @notification_color;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-left: 15px;
+        color: @text_color;
+        font-weight: 400;
+    }
+    ul li a:hover {
+        text-decoration: none;
+    }
+    .subMenu {
+        display: none;
+        margin-top: 10px;
+    }
+    .subMenu li {
+        position: relative;
+        z-index: 400;
+        list-style-type: none;
+        color: @text_color;
+        background: lighten(@base_color, 20%);
+        padding-left: 40px;
+        border-bottom: 1px solid @sidebar_divider_color;
+    }
+    .subMenu li:hover {
+        background: darken(@base_color, 2%);
+    }
+    .notification {
+        padding: 1px 6px;
+        background: darken(@base_color,10%);
+        color: lighten(@text_color, 80%);
+    }
+    #developer {
+        width: 98%;
+        position: absolute;
+        bottom: 10px;
+        p {
+            color: lighten(@text_color, 80%);
+            font-size: 12px;
+        }
+        p>span a {
+            color:lighten(@text_color, 80%);
+            display: block;
+            font-weight: bold;
+        }
+        div#btnChat {
+            width: 50%;
+            float: left;
+            span {
+                color: @sidebar_text_color;
+            }
+        }
+        div#btnMail {
+            float: left;
+            width: 50%;
+            span {
+                color: @sidebar_text_color;
+            }
+        }
+        div#developerName {
+            width: 70%;
+            float: left;
+            cursor: pointer;
+        }
+        div#developerLogo {
+            width: 25%;
+            float: left;
+            cursor: pointer;
+            img {
+                width: 82%;
+            }
+        }
+        div#pop-up {
+            display: none;
+            position: absolute;
+            left: 211px;
+            bottom: 0px;
+            width: 300px;
+            padding: 10px;
+            background: #eeeeee;
+            border: 1px solid lighten(@base_color, 60%);
+            font-size: 90%;
+            border-radius: 2px;
+            z-index: 400;
+        }
+        #myIframeID {
+            border: 2px solid lighten(@base_color, 70%);
+        }
+    }
+}
+#contentBox {
+    background: #fff;
+    border: 1px solid #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+    #homeTiles>div {
+        width: 45%;
+        height: 95px;
+        float: left;
+        background: lighten(@base_color, 10%);
+        margin: 10px;
+        padding: 10px;
+    }
+    #homeTiles>div>p {
+        font-size: 35px;
+        color: #fff;
+        text-align: center;
+    }
+    #homeTiles>div>div {
+        width: 100%;
+        background: darken(@base_color, 1%);
+        color: lighten(@text_color, 80%);
+        text-align: center;
+        padding: 4px;
+    }
+    #homeTiles>div:nth-child(3) {
+        background: @notification_color;
+        div {
+            background: darken(@notification_color, 5%);
+        }
+    }
+    #homeTiles>div:nth-child(4) {
+        background: @tiles_color;
+        div {
+            background: darken(@tiles_color, 5%);
+        }
+    }
+    #chart {
+        margin-top: 21px;
+        #homeChartSummary {
+            float: left;
+            width: 40%;
+            height: 223px;
+            background-color: darken(@chart_color, 10%);
+            .weeklyIncomeAmount {
+                color: lighten(@chart_color, 40%);
+                font-size: 20px;
+                text-align: center;
+                padding-top: 10px;
+            }
+            p {
+                text-align: center;
+                color: lighten(@chart_color, 30%);
+            }
+            table {
+                margin-top: 62px;
+                margin-left: 10px;
+            }
+            table tr:nth-child(1) td:nth-child(1) {
+                color: lighten(@chart_color, 50%);
+                font-weight: bold;
+            }
+            table tr:nth-child(2) td:nth-child(1) {
+                color: lighten(@chart_color, 50%);
+                font-weight: bold;
+            }
+            table tr:nth-child(3) td:nth-child(1) {
+                color: lighten(@chart_color, 50%);
+                font-weight: bold;
+            }
+            table td {
+                padding: 5px;
+                font-size: 12px;
+                color: lighten(@chart_color, 40%);
+            }
+        }
+        #homeChart {
+            float: left;
+            width: 60%;
+            height: 223px;
+        }
+        .canvasjs-chart-credit {
+            display: none !important;
+        }
+        canvas.canvasjs-chart-canvas {
+           // background: #fff!important;
+        }
+    }
+}
+#contentHeaderBox {
+    height: 30px;
+    border-bottom: 1px solid @border_color;
+    h1 {
+        font-size: 16px;
+        color: lighten(@text_color, 30%);
+        padding-left: 20px;
+        width: 90%;
+    }
+    #editOption {
+        position: relative;
+        top: -38px;
+        right: 30px;
+        cursor: pointer;
+    }
+    ul#contextMenu {
+        width: 200px;
+        height: 30px !important;
+        position: absolute;
+        display: none;
+        border: none;
+        box-shadow: none;
+    }
+}
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+    
+    #contentBox #homeTiles > div {
+        width: 41%;
+    }
+    #menuCollapse, #menuExpand {
+        display: none
+    }
+    #sidebar {
+        height: auto !important;
+    }
+    #header #profile_photo {
+        top: -24px;
+    }
+    #header .logo {
+        position: relative;
+        top: -20px;
+        padding: 8px;
+    }
+    div#developerName {
+        width: 52% !important;
+    }
+    #sidebar #developer div#developerLogo img {
+        width: 40px;
+        height: 40px;
+    }
+    #sidebar #developerDivider {
+        display: none;
+    }
+    div#btnChat {
+        width: 40% !important;
+    }
+    #sidebar #developer div#pop-up {
+        left: 0px;
+    }
+}
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    /* Styles */
+}
+/* Smartphones (portrait) ----------- */
+
+@media only screen and(max-width: 480px) {
+    .searchBox {
+        display: none;
+    }
+    #contentBox #chart #homeChartSummary {
+        width: 95%;
+    }
+    #contentBox #chart #homeChart {
+        width: 95%;
+    }
+    #contentBox #homeTiles > div > p {
+        font-size: 28px;
+    }
+    #contentBox #homeTiles > div > div {
+        padding: 0
+    }
+    div#developerName {
+        width: 52% !important;
+    }
+    #sidebar #developer div#developerLogo img {
+        width: 40px;
+        height: 40px;
+    }
+    #sidebar #developerDivider {
+        display: none;
+    }
+    div#btnChat {
+        width: 40% !important;
+    }
+    #sidebar #developer div#pop-up {
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    /* Styles */
+    
+    .searchBox {
+        display: none;
+    }
+    #menuCollapse, #menuExpand {
+        display: none
+    }
+    #sidebar {
+        height: auto !important;
+    }
+    #header #profile_photo {
+        top: -24px;
+    }
+    #header .logo {
+        position: relative;
+        top: -20px;
+        padding: 8px;
+    }
+    div#developerName {
+        width: 52% !important;
+    }
+    #sidebar #developer div#developerLogo img {
+        width: 40px;
+        height: 40px;
+    }
+    #sidebar #developerDivider {
+        display: none;
+    }
+    div#btnChat {
+        width: 40% !important;
+    }
+    #sidebar #developer div#pop-up {
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #menuCollapse, #menuExpand {
+        display: none
+    }
+    #sidebar {
+        height: auto !important;
+        display: none;
+    }
+    #header #profile_photo {
+        top: -35px;
+    }
+    #header .logo {
+        position: relative;
+        top: -20px;
+        padding: 8px;
+    }
+    #header #pageHeader {
+        margin-top: -33px
+    }
+    #header #pageHeader h1 {
+        padding-top: 15px;
+    }
+    #sidebar {
+        margin-top: -33px;
+    }
+    #normalView {
+        display: none;
+    }
+    #header #responsiveMenu {
+        display: inline-block;
+    }
+    #mainContentBox {
+        width: 100%;
+        margin-right: 9px;
+    }
+}
+@media only screen and(max-width: 1210px) {
+    #menuCollapse, #menuExpand {
+        display: none
+    }
+    #sidebar {
+        height: auto !important;
+        display: none;
+    }
+    #header #profile_photo {
+        top: -35px;
+    }
+    #header .logo {
+        position: relative;
+        top: -20px;
+        padding: 8px;
+    }
+    #header #pageHeader {
+        margin-top: -33px
+    }
+    #header #pageHeader h1 {
+        padding-top: 15px;
+    }
+    #sidebar {
+        margin-top: -33px;
+    }
+    #normalView {
+        display: none;
+    }
+    #header #responsiveMenu {
+        display: inline-block;
+    }
+    #mainContentBox {
+        width: 100%;
+        margin-right: 9px;
+    }
+    #sidebar #developer {
+        position: relative;
+        margin-top: 52px;
+        bottom: 37px;
+    }
+    #sidebar #developer div#developerName {
+        width: 18%;
+    }
+    #sidebar #developer div#developerLogo img {
+        width: 40px;
+        height: 40px;
+    }
+    #sidebar #developerDivider {
+        display: none;
+    }
+    #sidebar #developer div#btnChat {
+        width: 13%;
+    }
+}
+
+/* theme container start */
+#themeContainer {
+    margin: 10px !important;
+    width: 95%;
+    float: left;
+}
+#themesThum {
+    width: 100%
+}
+#themesThum td {
+    width: 15%;
+    padding: 5px;
+}
+#themesThum img {
+    border: 2px solid #eee;
+    padding: 3px;
+    height: 120px;
+}
+#themesThum img:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    cursor: pointer;
+}
+#themesThum p {
+    padding: 2px 5px;
+    background: #333;
+    color: #fff;
+    margin-right: 9px;
+    width: 159px;
+}
